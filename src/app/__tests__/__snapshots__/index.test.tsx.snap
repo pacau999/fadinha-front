@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> should render and match the snapshot 1`] = `
+<Provider
+  store={
+    Object {
+      "createReducer": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "injectedReducers": Object {},
+      "injectedSagas": Object {},
+      "replaceReducer": [Function],
+      "runSaga": [Function],
+      "subscribe": [Function],
+      Symbol(Symbol.observable): [Function],
+    }
+  }
+>
+  <Admin
+    authProvider={[Function]}
+    dashboard={[Function]}
+    dataProvider={
+      Object {
+        "create": [Function],
+        "delete": [Function],
+        "deleteMany": [Function],
+        "getList": [Function],
+        "getMany": [Function],
+        "getManyReference": [Function],
+        "getOne": [Function],
+        "update": [Function],
+        "updateMany": [Function],
+      }
+    }
+    history={
+      Object {
+        "action": "POP",
+        "block": [Function],
+        "createHref": [Function],
+        "go": [Function],
+        "goBack": [Function],
+        "goForward": [Function],
+        "length": 1,
+        "listen": [Function],
+        "location": Object {
+          "hash": "",
+          "pathname": "/",
+          "search": "",
+          "state": undefined,
+        },
+        "push": [Function],
+        "replace": [Function],
+      }
+    }
+    layout={[Function]}
+    loginPage={[Function]}
+    title="Fadinha Teacher"
+  >
+    <Resource
+      create={[Function]}
+      edit={[Function]}
+      icon={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+        }
+      }
+      list={[Function]}
+      name="students"
+      show={[Function]}
+    />
+    <Resource
+      create={[Function]}
+      edit={[Function]}
+      icon={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+        }
+      }
+      list={[Function]}
+      name="enrollments"
+      show={[Function]}
+    />
+    <Resource
+      create={[Function]}
+      edit={[Function]}
+      icon={
+        Object {
+          "$$typeof": Symbol(react.memo),
+          "compare": null,
+          "type": Object {
+            "$$typeof": Symbol(react.forward_ref),
+            "render": [Function],
+          },
+        }
+      }
+      list={[Function]}
+      name="tutoringTypes"
+      options={
+        Object {
+          "label": "Tutoring Types",
+        }
+      }
+      show={[Function]}
+    />
+  </Admin>
+</Provider>
+`;

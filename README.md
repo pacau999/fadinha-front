@@ -32,7 +32,23 @@ To run this project you need to set the api url on `REACT_APP_APIURL` envroiment
 
 ex: `http://192.168.100.74:3001`
 
+## Quick Developmet
 
+If you just wanna play with the front end you can quick run a fake rest api.  Add a `db.json` file in the root directory with the following data:
+
+`  "enrollments": [],
+  "teachers": [
+    {
+      "id": "me"
+    },
+    {
+      "id": "login"
+    }
+  ],
+  "tutoringtTypes": [],
+  "students": []`
+  
+  then `yarn run json-server db.json` to run the API, now in another terminal you can just `yarn start` to live preview the app with blazing fast hot reload
 
 
 ## Stack 

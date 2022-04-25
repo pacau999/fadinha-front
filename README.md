@@ -3,7 +3,7 @@
 
 An complete application for private tutoring teachers. 
 Made with modern, fast, scalable, reliable and DX optimised technologies. 
- 
+Live on: https://fairyt.vercel.app/
 ## Some Features
 
 - Responsive and Mobile First
@@ -24,9 +24,9 @@ Made with modern, fast, scalable, reliable and DX optimised technologies.
 
 
 
-## Envroiment variables
+## Environment variables
 
-To run this project you need to set the api url on `REACT_APP_APIURL` envroiment variable
+To run this project you need to set the api url on `REACT_APP_APIURL` environment variable
 
 
 

@@ -16,7 +16,7 @@ Live on: https://fairyt.vercel.app/
 
 ## Features pre-installed and ready to be implemented if wanted:
 
-- Redux + Saga(only used by react-admin library)
+- Redux + Saga(only used by react-admin v3 library (recently v4 relase doesnt' need it anymore)
 - Testing with Jest
 - Localisation
 - Typescript
